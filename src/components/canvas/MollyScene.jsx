@@ -6,7 +6,7 @@ import CanvasLoader from "../Loader";
 
 const MollyModel = () => {
   const ref = useRef();
-  const { scene } = useGLTF('/molly/scene.gltf');
+  const { scene } = useGLTF('molly/scene.gltf');
   console.log('🐈 Model Loaded!')
   useFrame(() => {
     if (ref.current) {
