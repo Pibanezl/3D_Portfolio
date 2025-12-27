@@ -3,11 +3,12 @@ import { Suspense, useRef } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
+import modelUrl from '../../assets/molly/scene.gltf?url';
+
 
 const MollyModel = () => {
   const ref = useRef();
-  const modelUrl = import.meta.env.BASE_URL + 'molly/scene.gltf';
-const { scene } = useGLTF(modelUrl);
+  const { scene } = useGLTF(modelUrl);
 
   console.log('🐈 Model Loaded!')
   useFrame(() => {
