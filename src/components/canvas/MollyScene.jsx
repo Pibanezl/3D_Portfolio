@@ -21,8 +21,8 @@ const MollyModel = () => {
       ref={ref}
       object={scene}
       scale={8}
-      position={[0, -.4, 0]}
-      rotation={[0.2, 0, 0]}
+      position={[0, -1, 0]}
+      rotation={[0, 0, 0]}
     />
   );
 };
@@ -41,7 +41,7 @@ const MollyScene = () => {
             enableZoom={false}
             maxPolarAngle={Math.PI / 2}
             minPolarAngle={Math.PI / 2}
-            target={[0, 0.4, 0]} />
+            target={[0, 0, 0]} />
           <MollyModel />
         </Suspense>
 
