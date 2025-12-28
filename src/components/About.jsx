@@ -8,18 +8,6 @@ import { SectionWrapper } from '../hoc';
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
-    //<Tilt className="xs:w-[250px] w-full ">
-    //  <motion.div variants={fadeIn("right", "spring", 0.5 * index, 0.75)} className="w-full teal-lima-gradient p-[1px] rounded-[10px] shadow-card">
-    //    <div options={{
-    //      max: 45,
-    //      scale: 1,
-    //      speed: 450
-    //    }} className="bg-tertiary rounded-[10px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
-    //      <img src={icon} alt={title} className=" invert w-16 h-16 object-contain"/>
-    //        <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
-    //    </div>
-    //  </motion.div>
-    //</Tilt> 
     < motion.div variants={fadeIn("right", "spring", 0.5 * index, 0.75)} >
       <Tilt
         options={{ max: 25, scale: 1.05, speed: 400 }}
@@ -43,7 +31,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in TypeScript, and JavaScript, and expertice in frameworks like React, Node, and Three.Js. I'm quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life.
+        I am a front‑end developer with a strong creative background in 3D art: I prioritise building polished, accessible interfaces using TypeScript, JavaScript, React, and Three.js. I focus on component‑driven architecture, responsive design, and performance optimisation to deliver intuitive, scalable web experiences. As an artist, I bring visual sensibility and a keen eye for detail that enhances UI/UX and interactive visuals. I learn quickly, collaborate closely with designers and clients, and enjoy taking projects from visual prototype to production‑ready delivery.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

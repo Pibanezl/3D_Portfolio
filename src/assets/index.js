@@ -25,6 +25,18 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import networkVisuals from "./company/meta.png";
+import woodenYacht from "./company/meta.png";
+import ibm from "./company/meta.png";
+import vector from "./company/meta.png";
+import nutech from "./company/meta.png";
+import holdingWiki from "./company/meta.png";
+import endif from "./company/meta.png";
+import samurai from "./company/meta.png";
+import catorce from "./company/meta.png";
+import propulso from "./company/meta.png";
+
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -51,12 +63,18 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  tresde,
+  networkVisuals,
+  woodenYacht,
+  ibm,
+  vector,
+  nutech,
+  holdingWiki,
+  endif,
+  samurai,
+  catorce,
+  propulso,
   carrent,
   jobit,
   tripguide,
-  tresde
 };
