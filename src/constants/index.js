@@ -125,7 +125,7 @@ const experiences = [
     title: "Branding Installation Technician",
     company_name: "Network Visuals",
     icon: networkVisuals,
-    iconBg: "#383E56",
+    iconBg: "#000000ff",
     date: "Jun 2025 - Nov 2025",
     points: [
       "Installed large-scale branding for events across Auckland, including Sky Tower and Auckland Zoo.",
@@ -138,7 +138,7 @@ const experiences = [
     title: "Restoration Technician (Contractor)",
     company_name: "Independent Wooden Yacht Restorations",
     icon: woodenYacht,
-    iconBg: "#1F6FEB",
+    iconBg: "#b1b1b1ff",
     date: "Jun 2025 - Nov 2025",
     points: [
       "Executed precision sanding, epoxy application, putty work, priming and fine finishing on classic yachts.",
@@ -151,7 +151,7 @@ const experiences = [
     title: "Distribution Centre & Field Technical Support",
     company_name: "IBM",
     icon: ibm,
-    iconBg: "#0F172A",
+    iconBg: "#579add",
     date: "Jan 2025 - May 2025",
     points: [
       "Provided on-site technical support at Cencosud stores and distribution centres.",
@@ -164,7 +164,7 @@ const experiences = [
     title: "Field Technical Support",
     company_name: "VECTOR",
     icon: vector,
-    iconBg: "#E6DEDD",
+    iconBg: "#7c7c7cff",
     date: "Nov 2024 - Dec 2024",
     points: [
       "Led equipment updates and installations across Atacama region branches for the National Civil Registry.",
@@ -177,7 +177,7 @@ const experiences = [
     title: "Field Technical Support (Replacement)",
     company_name: "NUTECH - Universidad Andres Bello",
     icon: nutech,
-    iconBg: "#2A9D8F",
+    iconBg: "#ffffffff",
     date: "Oct 2024",
     points: [
       "Provided on-site technical support across university campuses for faculty and staff.",
@@ -190,7 +190,7 @@ const experiences = [
     title: "Systems Analyst",
     company_name: "HOLDING WIKI SPA",
     icon: holdingWiki,
-    iconBg: "#4B5563",
+    iconBg: "#ffffffff",
     date: "Mar 2024 - Sept 2024",
     points: [
       "Managed the IT department and provided technical support for company staff.",
@@ -203,7 +203,7 @@ const experiences = [
     title: "Field Technical Support",
     company_name: "ENDIF SPA",
     icon: endif,
-    iconBg: "#7C3AED",
+    iconBg: "#ffffffff",
     date: "Dec 2023 - Feb 2024",
     points: [
       "Provided office and on-site technical support for clients across the metropolitan region.",
@@ -216,7 +216,7 @@ const experiences = [
     title: "Front End Developer (Freelance)",
     company_name: "SAMURAI ECOMMERCE",
     icon: samurai,
-    iconBg: "#0EA5A4",
+    iconBg: "#000000ff",
     date: "Jun 2023 - Sept 2023",
     points: [
       "Freelance front-end developer focused on eCommerce projects using Vue.js.",
@@ -242,7 +242,7 @@ const experiences = [
     title: "Front End Developer Junior",
     company_name: "PROPULSO W SPA",
     icon: propulso,
-    iconBg: "#111827",
+    iconBg: "#ffffffff",
     date: "Nov 2021 - Feb 2023",
     points: [
       "Developed front-end features for eCommerce projects using VTEX, HTML, SCSS/SASS and JavaScript.",

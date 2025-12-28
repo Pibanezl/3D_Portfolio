@@ -20,21 +20,16 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import networkVisuals from "./company/meta.png";
-import woodenYacht from "./company/meta.png";
-import ibm from "./company/meta.png";
-import vector from "./company/meta.png";
-import nutech from "./company/meta.png";
-import holdingWiki from "./company/meta.png";
-import endif from "./company/meta.png";
-import samurai from "./company/meta.png";
-import catorce from "./company/meta.png";
-import propulso from "./company/meta.png";
+import networkVisuals from "./company/networkvisuals.png";
+import woodenYacht from "./company/yatch.png";
+import ibm from "./company/ibm.png";
+import vector from "./company/vector.webp";
+import nutech from "./company/nutech.jpeg";
+import holdingWiki from "./company/holdingwiki.jpeg";
+import endif from "./company/endif.svg";
+import samurai from "./company/samurai.png";
+import catorce from "./company/catorce.png";
+import propulso from "./company/propulsow.webp";
 
 
 import carrent from "./carrent.png";
