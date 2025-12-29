@@ -135,7 +135,7 @@ const experiences = [
     ],
   },
   {
-    title: "Restoration Technician (Contractor)",
+    title: "Restoration Technician (Casual)",
     company_name: "Independent Wooden Yacht Restorations",
     icon: woodenYacht,
     iconBg: "#b1b1b1ff",
