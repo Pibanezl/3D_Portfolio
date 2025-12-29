@@ -22,7 +22,7 @@ const MollyModel = () => {
       object={scene}
       scale={8}
       position={[0, -1, 0]}
-      rotation={[0, 0, 0]}
+      rotation={[0, -2, 0]}
     />
   );
 };
