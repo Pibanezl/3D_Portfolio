@@ -34,7 +34,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I am a front‑end developer with a strong creative background in 3D art: I prioritise building polished, accessible interfaces using TypeScript, JavaScript, React, and Three.js. I focus on component‑driven architecture, responsive design, and performance optimisation to deliver intuitive, scalable web experiences. As an artist, I bring visual sensibility and a keen eye for detail that enhances UI/UX and interactive visuals. I learn quickly, collaborate closely with designers and clients, and enjoy taking projects from visual prototype to production‑ready delivery.
+        I am a front‑end developer with a strong creative background in 3D art: I prioritise building polished, accessible interfaces using TypeScript, JavaScript, React, and Three.js. I focus on component‑driven architecture and responsive design to deliver intuitive, scalable web experiences. As an artist, I bring visual sensibility and a keen eye for detail that enhances UI/UX and interactive visuals. I learn quickly, collaborate closely with designers and clients, and enjoy taking projects from visual prototype to production‑ready delivery.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (
