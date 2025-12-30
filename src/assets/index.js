@@ -6,18 +6,15 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
+import css from "./tech/css.svg";
+import figma from "./tech/figma.svg";
+import git from "./tech/git.svg";
+import html from "./tech/html.svg";
+import javascript from "./tech/javascript.svg";
+import nodejs from "./tech/nodejs.svg";
+import reactjs from "./tech/reactjs.svg";
+import tailwind from "./tech/tailwindcss.svg";
+import typescript from "./tech/typescript.svg";
 import threejs from "./tech/threejs.svg";
 
 import networkVisuals from "./company/networkvisuals.png";
@@ -46,15 +43,12 @@ export {
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
   javascript,
-  mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
   threejs,
