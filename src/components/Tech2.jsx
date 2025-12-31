@@ -103,7 +103,7 @@ const LogoExtruded = memo(function LogoExtruded({ icon, size = 1.2, thickness = 
               const g = new THREE.ExtrudeGeometry(shape, {
                 depth: thickness,
                 bevelEnabled: false,
-                curveSegments: 3, // ultra low poly (pero bonito)
+                curveSegments: 2, // ultra low poly (pero bonito)
               });
               createdGeometries.push(g);
               return g;
@@ -191,10 +191,9 @@ const LogoCard = ({ tech }) => {
     <div className="relative w-28 h-28" ref={containerRef}>
       <div className="absolute inset-0 flex justify-center items-center pointer-events-none z-0">
         <div
-          className="w-[110px] h-[110px] rounded-full blur-2xl opacity-20"
+          className="w-[65px] h-[65px] rounded-full blur-2xl opacity-20"
           style={{
-            background: tech.color || "#faf8e1",
-            transform: "translateY(34px)",
+            background: "#faf8e1"
           }}
         />
       </div>
