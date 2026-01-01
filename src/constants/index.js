@@ -16,6 +16,7 @@ import {
   tripguide,
   threejs,
   tresde,
+  forma,
   networkVisuals,
   woodenYacht,
   ibm,
@@ -106,6 +107,21 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Full Stack Developer (Freelance)",
+    company_name: "Forma Cambridge (client)",
+    icon: forma,
+    iconBg: "#312e43",
+    date: "Dec 2025 - Present",
+    points: [
+      "Built the complete website for the new Pilates studio Forma Cambridge using Next.js and Tailwind CSS.",
+      "Designed a boutique, elegant UI/UX that reflects the studio's brand voice and aesthetic.",
+      "Integrated CMS with Sanity and membership/booking workflows with GymMaster; prepared contact and newsletter systems for implementation.",
+      "Implemented interactive maps with Leaflet to display the studio location and improve usability.",
+      "Deployed the site on Vercel and configured the domain on GoDaddy; managed production setup and post-launch adjustments.",
+      "Live preview: https://forma-alpha.vercel.app/",
+    ],
+  },
   {
     title: "Branding Installation Technician",
     company_name: "Network Visuals",

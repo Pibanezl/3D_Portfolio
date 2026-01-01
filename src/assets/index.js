@@ -17,6 +17,7 @@ import tailwind from "./tech/tailwindcss.svg";
 import typescript from "./tech/typescript.svg";
 import threejs from "./tech/threejs.svg";
 
+import forma from "./company/forma.png";
 import networkVisuals from "./company/networkvisuals.png";
 import woodenYacht from "./company/yatch.png";
 import ibm from "./company/ibm.png";
@@ -53,6 +54,7 @@ export {
   typescript,
   threejs,
   tresde,
+  forma,
   networkVisuals,
   woodenYacht,
   ibm,
