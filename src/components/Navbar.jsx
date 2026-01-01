@@ -11,7 +11,17 @@ const Navbar = () => {
 
   return (
     /* navbar */
-    <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary/60 backdrop-blur-xl`}>
+    <nav className={`
+  ${styles.paddingX}
+  w-full flex items-center py-5
+  fixed top-0 z-20
+  bg-primary/40 backdrop-blur-xl
+  transform-gpu will-change-transform
+  before:content-[''] before:absolute before:inset-0
+  before:bg-transparent before:backdrop-blur-xl before:-z-10
+`}>
+
+
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link to="/" className="flex items-center gap-2" onClick={() => { setActive(""); window.scrollTo(0, 0); }}>
           {/* <img src={logo} alt="logo" className="invert w-10 h-10 object-contain" /> */}
@@ -38,11 +48,10 @@ const Navbar = () => {
             <ul className="list-none flex justify-end items-start flex-col gap-4" >{navLinks.map((link) => (
               <li
                 key={link.id}
-                className={`${
-                  active === link.title
+                className={`${active === link.title
                     ? "text-white"
                     : "text-secondary"
-                } font-poppins font-medium cursor-pointer text-[16px]`}
+                  } font-poppins font-medium cursor-pointer text-[16px]`}
                 onClick={() => {
                   setToggle(!toggle);
                   setActive(link.title);
