@@ -17,7 +17,7 @@ const ExperienceCard = ({ experience }) => (
     icon={
       <div className='flex justify-center items-center w-full h-full'>
         <img
-          loading="lazy" // ver si sirve si no borrar (parece que no sirve)
+          // loading="lazy" // ver si sirve si no borrar (parece que no sirve)
           src={experience.icon}
           alt={experience.company_name}
           className="w-[60%] h-[60%] object-contain" />
